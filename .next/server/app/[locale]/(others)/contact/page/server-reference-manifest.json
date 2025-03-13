@@ -1,0 +1,71 @@
+{
+  "node": {
+    "00a44bfa24f60d5e008088a9453686d2a1d381aaf3": {
+      "workers": {
+        "app/[locale]/(others)/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/[locale]/(others)/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/sessions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[locale]/(others)/contact/page": "rsc"
+      }
+    },
+    "00e5a052a494e6af215db49c2c9221c559bcaea6db": {
+      "workers": {
+        "app/[locale]/(others)/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/[locale]/(others)/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/sessions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[locale]/(others)/contact/page": "rsc"
+      }
+    },
+    "40b072c0ff4e84d9a157e120eae2ab53819aab6dea": {
+      "workers": {
+        "app/[locale]/(others)/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/[locale]/(others)/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/sessions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[locale]/(others)/contact/page": "rsc"
+      }
+    },
+    "004af22bb9f24fd5b88242b1a1e0061cfcc2c9a804": {
+      "workers": {
+        "app/[locale]/(others)/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/[locale]/(others)/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/sessions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[locale]/(others)/contact/page": "rsc"
+      }
+    },
+    "006c45f64344fc61633d8bac5a046ffd7e59ed210f": {
+      "workers": {
+        "app/[locale]/(others)/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/[locale]/(others)/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/sessions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[locale]/(others)/contact/page": "rsc"
+      }
+    },
+    "70f5a8f0e0e288e843a48e749a3f1b2aa10a44596e": {
+      "workers": {
+        "app/[locale]/(others)/contact/page": {
+          "moduleId": "[project]/.next-internal/server/app/[locale]/(others)/contact/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/sessions.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[locale]/(others)/contact/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

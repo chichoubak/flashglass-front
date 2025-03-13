@@ -1,0 +1,19 @@
+{
+  "app": {
+    "[project]/src/app/[locale]/(others)/(homepage)/page": [
+      "static/media/wlpwgwvFAVdoq2_v_6QU82RHaA-s.p.296fbbb2.woff2"
+    ],
+    "[project]/src/app/[locale]/(others)/product/[id]/page": [
+      "static/media/wlpwgwvFAVdoq2_v_6QU82RHaA-s.p.296fbbb2.woff2"
+    ],
+    "[project]/src/app/[locale]/(others)/contact/page": [
+      "static/media/wlpwgwvFAVdoq2_v_6QU82RHaA-s.p.296fbbb2.woff2"
+    ],
+    "[project]/src/app/[locale]/(others)/products/page": [
+      "static/media/wlpwgwvFAVdoq2_v_6QU82RHaA-s.p.296fbbb2.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

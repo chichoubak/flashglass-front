@@ -1,0 +1,160 @@
+{
+	"UI": {
+		"datePicker": {
+			"label": "Pick a date"
+		},
+		"showMore": {
+			"more": "Show more",
+			"less": "Show less"
+		}
+	},
+	"auth": {
+		"login": {
+			"title": "Login to your account",
+			"description": "Login to access your account",
+			"form": {
+				"email": "Email",
+				"password": "Password",
+				"submit": "Login",
+				"forgot": "Forgot password?",
+				"registerLink": "Register",
+				"orContinue": "Or continue with",
+				"google": "Google login",
+				"noAccount": "Don't have an account?",
+				"register": "Register",
+				"errors": {
+					"loginFailed": "Login failed",
+					"loginFailedDescription": "Please check your email and password",
+					"email": "Email is required",
+					"password": "Password is required"
+				}
+			}
+		},
+		"register": {
+			"title": "Create an account",
+			"description": "Create an account to access our services",
+			"form": {
+				"fisrtName": "First name",
+				"lastName": "Last name",
+				"birthDate": "Birth date",
+				"birthDatePlaceholder": "YYYY/MM/DD",
+				"email": "Email",
+				"password": "Password",
+				"confirmPassword": "Confirm password",
+				"submit": "Register",
+				"alreadyAccount": "Already have an account?",
+				"login": "Login",
+				"orContinue": "Or continue with",
+				"google": "Google login",
+				"errors": {
+					"title": "Error",
+					"generic": "Registration failed",
+					"firstName": "First name is required",
+					"lastName": "Last name is required",
+					"birthDate": "Birth date is required",
+					"birthDateAge": "You must be at least 18 years old",
+					"email": "Email is required",
+					"emailInvalid": "Email is invalid",
+					"password": "Password is required",
+					"passwordLength": "Password must be at least 8 characters"
+				}
+			}
+		},
+		"forgotPassword": {
+			"title": "Forgot password",
+			"description": "Enter your email to reset your password",
+			"form": {
+				"email": "Email",
+				"submit": "Reset password",
+				"login": "Login",
+				"errors": {
+					"email": "Email is required",
+					"emailInvalid": "Email is invalid"
+				}
+			},
+			"success": {
+				"title": "Email sent",
+				"description": "An email has been sent to your email address"
+			},
+			"failed": {
+				"title": "Failed to send email",
+				"description": "Please check your email and try again"
+			}
+		},
+		"otp": {
+			"title": "Verification code",
+			"description": "Enter the verification code sent to your email",
+			"form": {
+				"otp": "Verification code",
+				"submit": "Submit",
+				"resend": "Resend code"
+			},
+			"resend": {
+				"success": "Code sent successfully",
+				"successDescription": "The code has been sent to your email",
+				"error": "Failed to send code",
+				"errorDescription": "Please try again"
+			},
+			"check": {
+				"success": "Code verified successfully",
+				"successDescription": "You will be redirected to the login page",
+				"error": "Invalid code",
+				"errorDescription": "Please check the code and try again"
+			}
+		},
+		"updatePassword": {
+			"title": "Update password",
+			"description": "Enter your new password",
+			"form": {
+				"password": "Password",
+				"confirmPassword": "Confirm password",
+				"submit": "Update password",
+				"errors": {
+					"password": "Password is required",
+					"passwordLength": "Password must be at least 8 characters",
+					"confirmPassword": "Confirm password is required",
+					"confirmPasswordMatch": "Passwords do not match"
+				}
+			},
+			"success": {
+				"title": "Password updated",
+				"description": "Your password has been updated successfully"
+			},
+			"failed": {
+				"title": "Failed to update password",
+				"description": "Please check your password and try again"
+			}
+		}
+	},
+	"layout": {
+		"nav": {
+			"draft": "Draft",
+			"cart": "Cart",
+			"account": "Account",
+			"login": "Login",
+			"logout": "Logout",
+			"register": "Register",
+			"seeAll": "See all",
+			"myOrders": "My orders",
+			"mySettings": "My settings",
+			"personalDetails": "Personal details"
+		}
+	},
+	"homepage": {
+		"products": {
+			"title": "Our Products",
+			"description": "ready to discover our products?",
+			"buyNow": "Buy now",
+			"seeAll": "See all"
+		},
+		"faq": {
+			"title": "Frequently Asked Questions",
+			"description": "Do you have any questions?"
+		}
+	},
+	"products": {
+		"startFrom": "Start from",
+		"getStarted": "Get started",
+		"chooseProduct": "Choose a product"
+	}
+}
