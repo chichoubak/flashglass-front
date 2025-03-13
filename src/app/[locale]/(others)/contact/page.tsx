@@ -118,7 +118,7 @@ export default function ContactForm() {
                 {/* Description */}
                 <div className="sm:col-span-2">
                     <label htmlFor="description" className="block text-sm font-medium text-gray-700">
-                    Qu'est ce que vous desirez ?
+                    Qu&apos;est ce que vous desirez ?
                     </label>
                     <textarea
                         id="description"

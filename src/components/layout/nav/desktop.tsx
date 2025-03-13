@@ -1,20 +1,14 @@
-import { LanguageSwitch } from '@/components/language-switch'
-import { Button, buttonVariants } from '@/components/ui/button'
 import { CustomImage } from '@/components/ui/image'
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from '@/components/ui/navigation-menu'
-import { Separator } from '@/components/ui/separator'
 import { Link } from '@/i18n/routing'
-import { checkAuthAction, logoutAction } from '@/lib/sessions'
-import { cn } from '@/lib/utils'
+import { checkAuthAction } from '@/lib/sessions'
 import { CategoryType } from '@/types/collection'
-import { ContactIcon, LogOutIcon, Settings2Icon, ShoppingBagIcon, ShoppingBasketIcon, SquarePenIcon, UserIcon, UserPenIcon } from 'lucide-react'
-import { getTranslations } from 'next-intl/server'
+import { ContactIcon } from 'lucide-react'
 import Image from 'next/image'
 import { ListItem, NavCollapse } from './collapse'
 import { NavMobile } from './mobile'
 
 export async function NavDesktop({ data }: { data: CategoryType[] }) {
-	const translate = await getTranslations('layout.nav')
 	const isConnected = await checkAuthAction()
 	return (
 		<NavCollapse className='w-full sticky top-0 left-0 py-4 border-b border-gray-200 bg-white z-40' position='down'>

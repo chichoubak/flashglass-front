@@ -3,7 +3,6 @@ import { Faq } from '@/components/faq'
 import { CustomImage } from '@/components/ui/image'
 import { ParseHtml } from '@/components/ui/parse-html'
 import { Link } from '@/i18n/routing'
-import { minProductPrice } from '@/lib/utils'
 import { getTranslations } from 'next-intl/server'
 import { ProductPromo } from '../components/product-promos'
 

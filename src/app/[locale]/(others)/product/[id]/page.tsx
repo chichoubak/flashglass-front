@@ -4,7 +4,6 @@ import { Carousel, CarouselContent, CarouselDots, CarouselItem } from '@/compone
 import { CustomImage } from '@/components/ui/image'
 import { ParseHtml } from '@/components/ui/parse-html'
 import { ShowMore } from '@/components/ui/show-more'
-import { getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { ProductPromo } from '../../category/components/product-promos'
 import { ProductTabs } from '../components/tabs'
@@ -27,8 +26,6 @@ export async function generateStaticParams() {
 
 export default async function ProductPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
 	const { locale, id } = await params
-
-	const translate = await getTranslations('products')
 
 	const products = await fetchProducts(fetch, {
 		locale,

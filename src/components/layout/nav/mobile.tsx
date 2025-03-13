@@ -1,17 +1,13 @@
-import { LanguageSwitch } from '@/components/language-switch'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Button, buttonVariants } from '@/components/ui/button'
 import { CustomImage } from '@/components/ui/image'
-import { Sheet, SheetContent, SheetFooter, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetFooter, SheetTrigger } from '@/components/ui/sheet'
 import { Link } from '@/i18n/routing'
-import { logoutAction } from '@/lib/sessions'
 import { CategoryType } from '@/types/collection'
-import { ContactIcon, LogOutIcon, MenuIcon, ShoppingBasketIcon, SquarePenIcon } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { MenuIcon } from 'lucide-react'
 import { ListItem } from './collapse'
 
-export function NavMobile({ data, isConnected }: { data: CategoryType[]; isConnected: boolean }) {
-	const translate = useTranslations('layout.nav')
+export function NavMobile({ data }: { data: CategoryType[]; isConnected: boolean }) {
 	return (
 		<div className='flex lg:hidden items-center gap-2'>
 			<Accordion className='flex flex-nowrap gap-3' type='single' collapsible>
