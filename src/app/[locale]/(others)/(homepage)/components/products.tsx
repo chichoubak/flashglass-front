@@ -4,7 +4,7 @@ import { Link } from '@/i18n/routing'
 import { ArrowRightIcon } from 'lucide-react'
 
 import { ParseHtml } from '@/components/ui/parse-html'
-import { CategoryType, ProductType } from '@/types/collection'
+import { ProductType } from '@/types/collection'
 import { getTranslations } from 'next-intl/server'
 
 interface HomepageProductProps {
@@ -32,16 +32,10 @@ export function HomepageProduct(props: HomepageProductProps) {
 	)
 }
 
-export async function HomepageProducts({ data }: { data: CategoryType[] }) {
-	const translate = await getTranslations('homepage')
-	const products: ProductType[] = []
-	data.forEach((category) => {
-		if (Array.isArray(category?.products)) {
-			products.push(...category.products)
-		}
-	})
+export async function HomepageProducts({ data }: { data: ProductType[] }) {
+	const translate = await getTranslations('homepage');
 	
-	const filteredProducts = products?.slice(0, 5)
+	const filteredProducts = data?.slice(0, 6)
 	return (
 		<section className='w-full mx-auto flex flex-col gap-2 lg:gap-10'>
 			<header className='flex flex-col gap-2'>

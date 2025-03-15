@@ -112,6 +112,7 @@ export interface CategoryTranslationType {
 }
 
 export interface CategoryType extends CategoryTranslationType {
+	types: TypeProducts[]
 	id: number
 	status: string
 	sort: null
@@ -126,4 +127,9 @@ export interface CategoryType extends CategoryTranslationType {
 	translations: CategoryTranslationType[]
 	products: ProductType[]
 	faq: FaqType[] | null
+}
+
+export interface TypeProducts  {
+	name: string
+	id: number
 }

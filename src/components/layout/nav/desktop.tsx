@@ -1,15 +1,14 @@
 import { CustomImage } from '@/components/ui/image'
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from '@/components/ui/navigation-menu'
 import { Link } from '@/i18n/routing'
-import { checkAuthAction } from '@/lib/sessions'
-import { CategoryType } from '@/types/collection'
+import { CategoryType, TypeProducts } from '@/types/collection'
 import { ContactIcon } from 'lucide-react'
 import Image from 'next/image'
 import { ListItem, NavCollapse } from './collapse'
 import { NavMobile } from './mobile'
 
 export async function NavDesktop({ data }: { data: CategoryType[] }) {
-	const isConnected = await checkAuthAction()
+
 	return (
 		<NavCollapse className='w-full sticky top-0 left-0 py-4 border-b border-gray-200 bg-white z-40' position='down'>
 			<div className='w-[90%] max-w-screen-xl mx-auto grid grid-cols-[auto_auto] lg:grid-cols-[auto_1fr_auto] justify-between gap-4 items-center'>
@@ -22,13 +21,13 @@ export async function NavDesktop({ data }: { data: CategoryType[] }) {
 							data.map((category) => (
 								<NavigationMenuItem key={category?.id}>
 									<NavigationMenuTrigger>{category?.title}</NavigationMenuTrigger>
-									{category?.products?.length > 0 && (
+									{category?.types?.length > 0 && (
 										<NavigationMenuContent>
 											<ul className='grid gap-5 p-6 md:w-[450px] lg:grid-cols-2 justify-center'>
 												<li className='relative rounded-md overflow-hidden'>
 													<CustomImage src={category.avatar} alt={category.title} className='object-cover' fill />
 												</li>
-												<ListItem category={category.id} list={category.products.map((product) => ({ title: product?.title, link: `/product/${product.id}` }))} />
+												<ListItem list={category.types.map((type: TypeProducts) => ({ title: type?.name, link: `/products/${type.id}` }))} />
 											</ul>
 										</NavigationMenuContent>
 									)}
@@ -114,7 +113,7 @@ export async function NavDesktop({ data }: { data: CategoryType[] }) {
 						</div>
 					</NavigationMenuList>
 				</NavigationMenu> */}
-				<NavMobile data={data} isConnected={isConnected} />
+				<NavMobile data={data} />
 			</div>
 		</NavCollapse>
 	)
