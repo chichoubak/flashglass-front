@@ -17,7 +17,7 @@ export async function fetchCategories(fetcher: typeof fetch, params: FetchCollec
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			cache: 'force-cache',
+			cache: 'no-store',
 			next: {
 				tags: ['collection', 'collection-categories'],
 			},
@@ -45,7 +45,7 @@ export async function fetchProjects(fetcher: typeof fetch, params: FetchCollecti
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			cache: 'force-cache',
+			cache: 'no-store',
 			next: {
 				tags: ['collection', 'collection-categories'],
 			},
@@ -73,7 +73,7 @@ export async function fetchProducts(fetcher: typeof fetch, params: FetchCollecti
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			cache: 'force-cache',
+			cache: 'no-store',
 			next: {
 				tags: ['collection', 'collection-products'],
 			},
@@ -101,7 +101,7 @@ export async function fetchSubProducts(fetcher: typeof fetch, params: FetchColle
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			cache: 'force-cache',
+			cache: 'no-store',
 			next: {
 				tags: ['collection', 'collection-sub-products'],
 			},
@@ -129,7 +129,7 @@ export async function fetchFaqs(fetcher: typeof fetch, params: FetchCollectionsP
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			cache: 'force-cache',
+			cache: 'no-store',
 			next: {
 				tags: ['collection', 'collection-faqs'],
 			},
