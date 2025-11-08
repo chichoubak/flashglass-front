@@ -1,7 +1,7 @@
 import { Separator } from '@/components/ui/separator'
 import { Link } from '@/i18n/routing'
 import { CategoryType } from '@/types/collection'
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from 'lucide-react'
+import { InstagramIcon } from 'lucide-react'
 import Image from 'next/image'
 
 const footerSections = (categories: CategoryType[]) => [
