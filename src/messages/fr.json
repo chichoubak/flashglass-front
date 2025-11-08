@@ -140,6 +140,28 @@
 		}
 	},
 	"homepage": {
+		"aboutUs": {
+			"title": "À propos de Flashglass",
+			"description": "Nous concevons et installons des solutions vitrées sur mesure qui allient vision architecturale et usage quotidien. Du conseil à la maintenance, notre équipe vous accompagne à chaque étape de votre projet.",
+			"highlights": {
+				"expertise": {
+					"title": "Expertise sur mesure",
+					"description": "Plus de 20 ans d'expérience dans la réalisation de structures vitrées pour les espaces résidentiels, commerciaux et industriels de la région."
+				},
+				"innovation": {
+					"title": "Innovation avant tout",
+					"description": "Nous investissons dans les technologies les plus récentes pour garantir des finitions précises, une durabilité optimale et une sécurité sans compromis."
+				},
+				"support": {
+					"title": "Accompagnement complet",
+					"description": "Nos spécialistes prennent en charge votre projet, du premier croquis jusqu'à l'installation sur site et le suivi après-vente."
+				},
+				"value": {
+					"title": "Valeur ajoutée",
+					"description": "Nous maximisons l'impact de chaque réalisation grâce à des matériaux premium, des délais maîtrisés et une collaboration transparente avec vos équipes."
+				}
+			}
+		},
 		"products": {
 			"title": "Nos produits",
 			"description": "Prêt à découvrir nos produits ?",

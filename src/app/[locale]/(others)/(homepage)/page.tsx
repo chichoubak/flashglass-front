@@ -2,6 +2,7 @@ import { fetchFaqs, fetchProducts, fetchProjects } from '@/api/bo/collection'
 import { FaqHomepage } from './components/faq'
 import { HomepageProducts } from './components/products'
 import { HomepageSlider } from './components/slider'
+import { AboutUsSection } from './components/about-us'
 
 async function getHomepageContent(locale: string) {
 	const data = await fetchProducts(fetch, {
@@ -34,6 +35,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 	return (
 		<main className='w-[90%] max-w-screen-xl flex flex-col items-center min-h-screen py-10 gap-10 lg:gap-16 font-[family-name:var(--font-geist-sans)] mx-auto'>
 			<HomepageSlider data={projects} />
+			<AboutUsSection />
 			<HomepageProducts data={products} />
 			<FaqHomepage data={faqData?.data || []} />
 		</main>

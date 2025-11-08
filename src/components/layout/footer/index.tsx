@@ -12,23 +12,23 @@ const footerSections = (categories: CategoryType[]) => [
 			href: `/category/${category.id}`,
 		})),
 	},
-	{
-		title: 'About Us',
-		links: [
-			{
-				title: 'title 1',
-				href: '#',
-			},
-			{
-				title: 'title 2',
-				href: '#',
-			},
-			{
-				title: 'title 3',
-				href: '#',
-			},
-		],
-	},
+	// {
+	// 	title: 'About Us',
+	// 	links: [
+	// 		{
+	// 			title: 'title 1',
+	// 			href: '#',
+	// 		},
+	// 		{
+	// 			title: 'title 2',
+	// 			href: '#',
+	// 		},
+	// 		{
+	// 			title: 'title 3',
+	// 			href: '#',
+	// 		},
+	// 	],
+	// },
 ]
 
 export function Footer({ data }: { data: CategoryType[] }) {
@@ -62,18 +62,18 @@ export function Footer({ data }: { data: CategoryType[] }) {
 					<div className='flex flex-col items-center lg:items-start col-span-2 lg:col-span-1'>
 						<h6 className='font-semibold'>Social Media</h6>
 						<div className='flex lg:flex-col gap-5 text-muted-foreground mt-6'>
-							<Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
+							{/* <Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
 								<FacebookIcon className='size-5' /> <span className='hidden lg:block'>Facebook</span>
-							</Link>
-							<Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
+							</Link> */}
+							<Link className='flex flex-nowrap items-center gap-2' href='https://www.instagram.com/flashglass_ma/' target='_blank'>
 								<InstagramIcon className='size-5' /> <span className='hidden lg:block'>Instagram</span>
 							</Link>
 							{/* <Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
 								<TwitterIcon className='size-5' /> <span className='hidden lg:block'>Twitter</span>
 							</Link> */}
-							<Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
+							{/* <Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
 								<LinkedinIcon className='size-5' /> <span className='hidden lg:block'>Linkedin</span>
-							</Link>
+							</Link> */}
 							{/* <Link className='flex flex-nowrap items-center gap-2' href='#' target='_blank'>
 								<YoutubeIcon className='size-5' /> <span className='hidden lg:block'>Youtube</span>
 							</Link> */}

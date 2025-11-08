@@ -141,6 +141,28 @@
 		}
 	},
 	"homepage": {
+		"aboutUs": {
+			"title": "About Flashglass",
+			"description": "We design and install custom glass solutions that combine architectural vision with everyday functionality. From consulting to maintenance, our team guides you at every stage of your project.",
+			"highlights": {
+				"expertise": {
+					"title": "Tailored Expertise",
+					"description": "20+ years of experience crafting glass structures for residential, commercial, and industrial spaces across the region."
+				},
+				"innovation": {
+					"title": "Innovation First",
+					"description": "We invest in the latest technologies to guarantee precision finishes, durability, and uncompromising safety."
+				},
+				"support": {
+					"title": "End-to-End Support",
+					"description": "Our specialists handle your project from the first sketch to on-site installation and after-sales follow-up."
+				},
+				"value": {
+					"title": "Added Value",
+					"description": "We deliver premium materials, predictable timelines, and transparent collaboration to maximize the impact of every project."
+				}
+			}
+		},
 		"products": {
 			"title": "Our Products",
 			"description": "ready to discover our products?",
